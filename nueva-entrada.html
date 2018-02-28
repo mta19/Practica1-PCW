@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Nuevo Receta</title>
+	<link rel="stylesheet" href="estilo.css">
+	<link rel="stylesheet" href="fontello/css/fontello.css">
+	<link rel="stylesheet" href="fontello/css/animation.css">
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Amatica+SC|Bevan|Crushed|Open+Sans+Condensed:300|Oswald|Vesper+Libre" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+	<header id="top">
+		<div class="inside">
+			<a href="index.html"> <h1> 日本 <br> Recetas Tradicionales Japonesas</h1></a>	
+			<ul class="boton">
+					<li><a href="registro.html"><i class="icon-user-1"></i> REG&Iacute;STRATE</a></li>
+					<li><a href="login.html"><i class="icon-login"></i> Login</a></li>
+					<li><a href="index.html"><i class="icon-logout"></i> Logout</a></li>
+			</ul>
+			<div id="busqueda">
+				<input id="buscador" type="text" placeholder="¿Qu&eacute; receta buscas? :)"><a href="buscar.html"><i class="icon-search"></i></a>
+			</div> 
+			<nav>
+				<ul>
+					<li><a href="index.html"><span class="icon-home">Inicio</a></li>
+					<li><a href="buscar.html"><span class="icon-search-1">Buscar receta</a></li>
+					<li><a href="nueva-entrada.html"><span class="icon-doc-text">Nueva receta</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<section id="nueva-entrada"> 
+	<h2>Crea una nueva receta</h2> 
+		<form name="login" action="entrada.html" method="get" accept-charset="utf-8">  
+		    <ul> 
+		    	<li><label> Nombre</label>  <br>
+		        <input  type="text" maxlength="200" placeholder="Nombre" required autofocus></li> <br>
+		        <label> Descripci&oacute;n del plato</label> 
+		        <textarea type="textarea" required > </textarea> 
+		        
+		      	<label> Ingredientes</label> 
+		        <textarea type="textarea" required > </textarea>
+		       	<label> Im&aacute;genes</label><br>
+		       	<div class="miniat">
+		       		<div>
+						<img alt="sushi2"  class="box2" src="imagenes/sushi2.jpg"><span class="icon-trash">
+						<textarea type="textarea" required maxlength="250"> </textarea>
+					</div>
+					<div>
+						<img alt="sushi4"  class="box2" src="imagenes/sushi4.jpg"><span class="icon-trash">
+						<textarea type="textarea" required maxlength="250"> </textarea>
+					</div>
+					<div>
+						<img alt="sushi5"  class="box2" src="imagenes/sushi5.jpg"><span class="icon-trash">
+						<textarea type="textarea" required maxlength="250"> </textarea>
+					</div>
+		       </div>
+		       <i class="icon-check"></i> <a href="index.html"><input type="submit" id="enviar" value="Publicar"></a>
+		    </ul>  
+		</form>  
+			<ul class="boton2">
+				<input type="file"> <br>
+				<li><a href="nueva-entrada.html"><i class="icon-picture"></i> Añadir foto</a></li>
+			</ul>
+	</section>
+	<footer>
+		<div class="foot">
+			<div>
+				<h4>日本 </h4> Recetas Tradicionales Japonesas.					
+			</div>
+			<nav>
+				<ul>
+					<li><a href="contacto.html">Cont&aacute;ctanos</a></li>
+					<li><a href="acerca.html">Qui&eacute;nes somos</a></li>
+					<li><a href="info.html">+Info</a></li>
+				</ul>
+			</nav>
+			<nav id="legal">
+				<ul>
+					<li><a href="legal.html">Aviso legal</a></li>
+					<li><a href="privacidad.html">pol&iacute;tica de privacidad</a></li>
+				</ul>
+			</nav>
+		</div>
+	</footer>
+</body>
+</html>
+
+<!-- content editable, nos permite modificar una lista en directo, lo necesitaremos para la practica-->
