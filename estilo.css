@@ -42,6 +42,27 @@ body>header>div>img{
 	margin-bottom: 1em;
 
 }
+#ordenado{
+	font-size: 1.6em;
+	text-align: center;
+	font-weight: bold;
+}
+#ordenado input{
+	margin: auto 1em;
+}
+#ordenado select{
+	font-family: "Cursiva"; 
+	width: 15em;
+	height: 2.5em;
+	text-align: center;
+}
+
+#botones label{
+	font-size: 1.9em;
+	padding: 3em;
+	font-weight: bold;
+}
+
 
 body>footer>div>p{
 	font-size: 1.2em;
