@@ -63,6 +63,9 @@ body>header>div>img{
 	font-weight: bold;
 }
 
+#ingredientes{
+	border: .1em solid gray;
+}
 
 body>footer>div>p{
 	font-size: 1.2em;
