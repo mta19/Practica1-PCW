@@ -13,8 +13,6 @@
 	<header id="top2">
 		<div class="inside">
 			<a href="index.html"><h1> 日本 <br> Recetas Tradicionales Japonesas</h1></a>
-			<div id="busqueda" style="display:none">
-				<input id="buscador" type="text" placeholder="¿Qu&eacute; receta buscas? :)"><a href="buscar.html"><i class="icon-search"></i></a>
 			</div>
 		</div>	
 	</header>
@@ -24,12 +22,12 @@
 		    <ul>  
 		        <label> Usuario</label>  <br>
 		        <input type="text" name="usuario" placeholder="Usuario"  autofocus required
-		        pattern="^[a-zA-Z][a-zA-Z0-9\-\_]{5,19}$" 
+		        pattern="^[a-zA-Z][a-zA-Z0-9/-/_]{5,19}$" 
 		        title="Introduce tan s&oacute;lo letras, n&uacute;meroso s&iacute;mbolos como -_ o espacio, no debe empezar por n&uacute;meros. Entre 6 y 20 caracteres." maxlength="20" minlength="6">
 
 		        <label>Contrase&ntilde;a</label><br>  
 		        <input type="password" name="password" placeholder="********" required 
-		        pattern="^[a-zA-Z][a-zA-Z0-9\-\_]{5,29}$" 
+		        pattern="^[a-zA-Z][a-zA-Z0-9/-/_]{5,29}$" 
 		        title="Introduce tan s&oacute;lo letras, n&uacute;meros o s&iacute;mbolos como -_, no debe empezar por n&uacute;meros. Entre 6 y 30 caracteres." maxlength="30" minlength="6">
 		        				
 				<li><i class="icon-check"></i><input type="submit" id="enviar" value="Iniciar"></li>
