@@ -30,8 +30,17 @@
 		        	<h2>Tiempo de comensales:</h2>
 		        		<input type="number" name="comensales" min="0" max="24" step="1" value="2">	
 
-					<h2>Dificultad:</h2>
-		        		 0 <input type="range" name="Dificultad" min="0" max="100" value="50"> 100	
+					<br>
+				        <div id="ordenado">
+							<label>Dificultad:</label>
+							<select name="orden" id="orden">
+								<!--<option value="0">SELECCIONA EL ORDEN: </option>-->
+								<option value="1">BAJA</option>
+								<option value="2">MEDIA</option>
+								<option value="3">ALTA</option>
+							</select>
+						</div> 
+					<br>	
 
 		        	<h2 >Ingredientes:</h2>	
 		        		<div id="ingredientes" contenteditable="true">
@@ -182,7 +191,7 @@
 	<footer>
 		<div class="foot">
 			<div>
-				<h4>日本 </h4> Recetas Tradicionales Japonesas.					
+				<h4>日本 </h4> Recetas Tradicionales Japonesas.				
 			</div>
 			<nav>
 				<ul>
@@ -197,7 +206,8 @@
 					<li><a href="privacidad.html">pol&iacute;tica de privacidad</a></li>
 				</ul>
 			</nav>
-		</div>	
+			<p>&copy; <strong>Recetas Tradicionales Japonesas - </strong> <time datetime="2018-02">Febrero de 2018</time></p>
+		</div>
 	</footer>
 </body>
 

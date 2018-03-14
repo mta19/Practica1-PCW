@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<title>Nuevo Receta</title>
+	<title>Nueva Receta</title>
 	<link rel="stylesheet" href="estilo.css">
 	<link rel="stylesheet" href="fontello/css/fontello.css">
 	<link rel="stylesheet" href="fontello/css/animation.css">
@@ -35,13 +35,37 @@
 		<form name="login" action="entrada.html" method="get" accept-charset="utf-8">  
 		    <ul> 
 		    	<li><label> Nombre</label>  <br>
-		        <input  type="text" maxlength="200" placeholder="Nombre" required autofocus></li> <br>
+		        <input  type="text" maxlength="80" name="name" placeholder="Nombre de la receta" required autofocus></li> <br>
+
+		        <li><label> N&uacute;mero de comensales:</label> <br>
+		        <input type="number" name="comensales" min="0" max="24" step="1" placeholder="Personas" required > </input> </li> <br>
+
+		        <li><label> Tiempo de elaboraci&oacute;n::</label> <br>
+		        <input type="number" name="tiempo" min="0" max="360" step="5" placeholder="Minutos" required > </input> </li> <br>
+
+				<br>
+		        <div id="">
+					<label>Dificultad:</label>
+					<select name="orden" id="orden">
+						<!--<option value="0">SELECCIONA EL ORDEN: </option>-->
+						<option value="1">BAJA</option>
+						<option value="2">MEDIA</option>
+						<option value="3">ALTA</option>
+					</select>
+				</div> 
+				<br>
+
 		        <label> Descripci&oacute;n del plato</label> 
 		        <textarea type="textarea" required > </textarea> 
 		        
-		      	<label> Ingredientes</label> 
-		        <textarea type="textarea" required > </textarea>
-		       	<label> Im&aacute;genes</label><br>
+		      	<label>Ingredientes:</label>	
+		        		<div id="ingredientes" contenteditable="true">
+			        		
+						</div>		       	
+				
+				<br>
+
+				<label> Im&aacute;genes</label><br>
 		       	<div class="miniat">
 		       		<div>
 						<img alt="sushi2"  class="box2" src="imagenes/sushi2.jpg"><span class="icon-trash">
@@ -67,7 +91,7 @@
 	<footer>
 		<div class="foot">
 			<div>
-				<h4>日本 </h4> Recetas Tradicionales Japonesas.					
+				<h4>日本 </h4> Recetas Tradicionales Japonesas.				
 			</div>
 			<nav>
 				<ul>
@@ -82,6 +106,7 @@
 					<li><a href="privacidad.html">pol&iacute;tica de privacidad</a></li>
 				</ul>
 			</nav>
+			<p>&copy; <strong>Recetas Tradicionales Japonesas - </strong> <time datetime="2018-02">Febrero de 2018</time></p>
 		</div>
 	</footer>
 </body>
