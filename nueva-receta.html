@@ -33,60 +33,47 @@
 	<section id="nueva-entrada"> 
 	<h2>Crea una nueva receta</h2> 
 		<form name="login" action="receta.html" method="get" accept-charset="utf-8">  
-		    <ul> 
-		    	<li><label> Nombre</label>  <br>
-		        <input  type="text" maxlength="80" name="name" placeholder="Nombre de la receta" required autofocus></li> <br>
+	    	<label> Nombre</label>  
+	        <input  type="text" maxlength="80" name="name" placeholder="Nombre de la receta" required autofocus>
+	        <br>
 
-		        <li><label> N&uacute;mero de comensales:</label> <br>
-		        <input type="number" name="comensales" min="0" max="24" step="1" placeholder="Personas" required > </input> </li> <br>
+	        <label> N&uacute;mero de comensales:</label> 
+	        <input type="number" name="comensales" min="0" max="24" step="1" placeholder="Pax" required >
+	        <br>
 
-		        <li><label> Tiempo de elaboraci&oacute;n::</label> <br>
-		        <input type="number" name="tiempo" min="0" max="360" step="5" placeholder="Minutos" required > </input> </li> <br>
+	        <label> Tiempo de elaboraci&oacute;n::</label>
+	        <input type="number" name="tiempo" min="0" max="360" step="5" placeholder="Min" required >
 
-				<br>
-		        <div id="">
-					<label>Dificultad:</label>
-					<select name="orden" id="orden">
-						<!--<option value="0">SELECCIONA EL ORDEN: </option>-->
-						<option value="1">BAJA</option>
-						<option value="2">MEDIA</option>
-						<option value="3">ALTA</option>
-					</select>
-				</div> 
-				<br>
+			<br>
+				<label>Dificultad:</label>
+				<select name="orden" id="orden">
+					<!--<option value="0">SELECCIONA EL ORDEN: </option>-->
+					<option value="1">Baja</option>
+					<option value="2">Media</option>
+					<option value="3">Alta</option>
+				</select>
+			<br>
 
-		        <label> Descripci&oacute;n del plato</label> 
-		        <textarea type="textarea" required > </textarea> 
-		        
-		      	<label>Ingredientes:</label>	
-		        		<div id="ingredientes" contenteditable="true">
-			        		
-						</div>		       	
-				
-				<br>
+	        <label> Descripci&oacute;n del plato</label>
+	        <input type="text">
+	        
+	      	<label>Ingredientes:</label>	
+		      	<input type="text" placeholder="Ingrediente">
+		      	<input type="button" value="-">
+		      	<input type="button" value="+">
+			<br>
 
-				<label> Im&aacute;genes</label><br>
-		       	<div class="miniat">
-		       		<div>
-						<img alt="sushi2"  class="box2" src="imagenes/sushi2.jpg"><span class="icon-trash">
-						<textarea type="textarea" required maxlength="250"> </textarea>
-					</div>
-					<div>
-						<img alt="sushi4"  class="box2" src="imagenes/sushi4.jpg"><span class="icon-trash">
-						<textarea type="textarea" required maxlength="250"> </textarea>
-					</div>
-					<div>
-						<img alt="sushi5"  class="box2" src="imagenes/sushi5.jpg"><span class="icon-trash">
-						<textarea type="textarea" required maxlength="250"> </textarea>
-					</div>
-		       </div>
-		       <i class="icon-check"></i> <a href="index.html"><input type="submit" id="enviar" value="Publicar"></a>
-		    </ul>  
-		</form>  
-			<ul class="boton2">
-				<input type="file"> <br>
-				<li><a href="nueva-receta.html"><i class="icon-picture"></i> Añadir foto</a></li>
-			</ul>
+			<label> Im&aacute;genes</label><br>
+	       	<div class="miniat">
+	       		<div>
+	       			<input type="file" name="">
+	       			<input type="text">
+				</div>
+				<input type="button" value="-">
+		      	<input type="button" value="+">
+	       </div>
+	       <i class="icon-check"></i> <a href="index.html"><input type="submit" id="enviar" value="Publicar"></a> 
+		</form> 
 	</section>
 	<footer>
 		<div class="foot">
