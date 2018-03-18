@@ -490,7 +490,7 @@ textarea:hover{
 .icon-search:hover{
 	color:#FD4444;
 }
-.box{
+#centrar>article{
 	text-align: center;
 	position:relative;
 	display: inline-block;
