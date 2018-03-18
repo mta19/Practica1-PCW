@@ -11,14 +11,34 @@ body{
 }
 
 header#top{
- 	margin: 5em auto 0;
- 	display: block;
- 	color:red;
-}
+	body>header#top{
+	 	margin: 5em auto 0;
+	 	display: block;
+	 	color:red;
+	}
+	
 
-header a{
-	text-decoration:none; 
-}
+		body>header>div>a{
+			text-decoration:none; 
+		}
+			body>header>div>a>h1{
+				padding: 1.5em;
+				background-image:url("imagenes/logo1.png"); 
+				background-repeat:no-repeat;
+				background-size: contain;
+				background-position: center;
+
+			}
+				body>header>div>a>h1>br{
+					color:#FD4444;
+				}
+			body>header>div>img{
+				display:block;
+				margin: auto;
+				margin-bottom: 1em;
+
+			}
+
 h1{
  	text-align: center;
 	font-size: 1.6em;
@@ -28,20 +48,89 @@ h1{
 	color:#FD4444;
 }
 
-body>header>div>a>h1{
-	padding: 1.5em;
-	background-image:url("imagenes/logo1.png"); 
-	background-repeat:no-repeat;
-	background-size: contain;
-	background-position: center;
 
+
+
+/*Foooter*/
+body>footer{
+	transform:skewY(-2deg);
+	border:.3em;
+	border-right: 0;
+	border-left: 0;
+	border-style: solid;
+	border-color: #E92C2C;
+	width: 100%;
+	background-image:url("imagenes/japon.jpg");
+	background-size: 100% 100%;
+	margin: 2.5em 0;
+	color:black;
+	transition:.3s;
 }
-body>header>div>img{
-	display:block;
-	margin: auto;
+	body>footer>a{
+		color:#128085;
+		font-weight: bold;
+	}
+	body>footer>div{
+		border:.1em;
+		border-right: 0;
+		border-left: 0;
+		width: 100%;
+		border-style: solid;
+		border-color: white;
+		font-weight: bold;
+	}
+		body>footer>div>div{
+			text-align: center;
+			font-size: 1.5em;
+		}
+		body>footer>div>p{
+			font-size: 1.2em;
+			padding: 0;
+		}
+
+
+
+footer:hover{
+	transform:skewY(0deg);
+}
+footer:hover #legal{
+	font-size: 1.2em;
+}	
+footer:hover div{
+	font-size: 1.1em;
+}	
+
+
+
+#legal{
+	font-size: 1.3em;
+	padding: 0;
+}
+
+#legal ul{
+	text-align: center;
+	padding: .1em 1em 0;
+	font-size: 1em;
+}
+#legal li{
+	padding:.1em;
+	padding-left: .5em;
+	padding-right: .5em;
 	margin-bottom: 1em;
-
+	transition:.2s;
 }
+#legal li:hover{
+	border:0;
+}
+/*End Footer*/
+
+#centrar{
+	margin:0 auto;
+	width: 90%;
+	max-width:70em; 
+}
+
+
 #ordenado{
 	font-size: 1.6em;
 	text-align: center;
@@ -67,14 +156,8 @@ body>header>div>img{
 	border: .1em solid gray;
 }
 
-body>footer>div>p{
-	font-size: 1.2em;
-	padding: 0;
-}
-#legal{
-	font-size: 1.3em;
-	padding: 0;
-}
+
+
 body>a{
 	font-size: 2em;
 /*Poner el boton centrado o a la izquierda*/
@@ -99,9 +182,7 @@ h1::first-line{
 	color:#FF0000;
 	font-size: 3em;
 }
-#inside>a>h1>br{
-	color:#FD4444;
-}
+
 #top2 li{
 	background-color:#FD4444;
 	color: black;
@@ -229,19 +310,19 @@ ul.boton2 li{
 ul.boton2 li:hover{
 	border-color: gray;
 }
-nav ul{
+nav>ul{
 	text-align: center;
 	padding: .1em 1em 0;
 	font-size: 1.9em;
 }
-nav li{
+nav>li{
 	padding:.1em;
 	padding-left: .5em;
 	padding-right: .5em;
 	margin-bottom: .1em;
 	transition:.3s;
 }
-nav li:hover{
+nav>li:hover{
 	border:.07em;
 	border-style: solid;
 	border-right: 0;
@@ -273,11 +354,7 @@ li{
 	max-width: 30em;
 	margin:1.5em auto 1em;
 }
-#centrar{
-	margin:0 auto;
-	width: 90%;
-	max-width:70em; 
-}
+
 #busqueda{
 	width: 90%;
 	position:relative;
@@ -603,6 +680,7 @@ form[name=login] input{
 	outline:none;
 	height: 2em;
 	border-radius: .4em;
+	margin: auto;
 }
 form[name=login] input:focus{
 box-shadow: 0 0 .4em 2px blue ;
@@ -782,69 +860,12 @@ input{
 	border-left:0;
 	border-color:#204860; 
 }
-footer{
-	transform:skewY(-2deg);
-	border:.3em;
-	border-right: 0;
-	border-left: 0;
-	border-style: solid;
-	border-color: #E92C2C;
-	width: 100%;
-	background-image:url("imagenes/japon.jpg");
-	background-size: 100% 100%;
-	margin: 2.5em 0;
-	color:black;
-	transition:.3s;
-}
-footer>div>div{
-	font-size: 1.5em;
-}
-footer:hover{
-	transform:skewY(0deg);
-}
-footer:hover #legal{
-	font-size: 1.2em;
-}	
-footer:hover div{
-	font-size: 1.1em;
-}	
-.foot{
-	border:.1em;
-	border-right: 0;
-	border-left: 0;
-	width: 100%;
-	border-style: solid;
-	border-color: white;
-	font-weight: bold;
-}
-.foot div{
-	text-align: center;
-}
-footer a{
-	color:#128085;
-	font-weight: bold;
-}
 p{
 	text-align: center;
 }
 h4{
 	display: inline;
 	font-size: 1.2em;
-}
-#legal ul{
-	text-align: center;
-	padding: .1em 1em 0;
-	font-size: 1em;
-}
-#legal li{
-	padding:.1em;
-	padding-left: .5em;
-	padding-right: .5em;
-	margin-bottom: 1em;
-	transition:.2s;
-}
-#legal li:hover{
-	border:0;
 }
 .yo{
 	margin:2em auto;
@@ -955,7 +976,7 @@ label[for="menu-ham"]{
 	.box{
 		width: 32.8%;
 	}
-	#centrar{
+	#dia{
 		margin-bottom: 5em;
 	}
 	nav ul{
