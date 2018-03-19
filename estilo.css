@@ -312,6 +312,7 @@ a.boton2{
     height: 1.5em;
 }
 
+
 a.boton2:hover{
 	border-color: gray;
 }
@@ -341,11 +342,8 @@ body>section>form>div{
 body>section>form>a{
 	padding: 0;
 	border: .1em solid gray;
-	overflow: hidden;
-	margin-top:.3em;
 	text-align: center;
-	height: 1.5em;
-	display: block;
+	margin: 50%;
 }
 
 /*Reajustar los botones de anterior y siguiente de entrada.html*/
@@ -440,6 +438,7 @@ input[type="text"]{
 	display: block;
 	height: 2em;
 	border-radius: .4em;
+	margin: auto;
 }
 input[type="password"]{
 	display: block;
