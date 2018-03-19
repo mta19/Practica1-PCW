@@ -34,25 +34,30 @@
 	<h2>Crea una nueva receta</h2> 
 		<form name="login" action="entrada.html" method="get" accept-charset="utf-8">  
 		    <ul> 
-		    	<li><label> Nombre</label>  <br>
-		        <input  type="text" maxlength="80" name="name" placeholder="Nombre de la receta" required autofocus></li> <br>
-
-		        <li><label> N&uacute;mero de comensales:</label> <br>
-		        <input type="number" name="comensales" min="0" max="24" step="1" placeholder="Personas" required > </input> </li> <br>
-
-		        <li><label> Tiempo de elaboraci&oacute;n::</label> <br>
-		        <input type="number" name="tiempo" min="0" max="360" step="5" placeholder="Minutos" required > </input> </li> <br>
-
-				<br>
-		        <div>
-					<label>Dificultad:</label>
+		    	<li>
+		    		<label>Nombre:</label>
+		        	<input  type="text" maxlength="80" name="name" placeholder="Nombre de la receta" required autofocus>
+		        </li>
+		        <br>
+		        <li>
+		        	<label>N&uacute;mero de comensales:</label>
+		        	<input type="number" name="comensales" min="0" max="24" step="1" placeholder="Personas" required >
+		        </li>
+		        <br>
+		        <li>
+		        	<label>Tiempo de elaboraci&oacute;n::</label>
+		        	<input type="number" name="tiempo" min="0" max="360" step="5" placeholder="Minutos" required >
+		        </li>
+		        <br>
+		        <li>
+		        	<label>Dificultad:</label>
 					<select name="orden" id="orden">
 						<!--<option value="0">SELECCIONA EL ORDEN: </option>-->
 						<option value="1">BAJA</option>
 						<option value="2">MEDIA</option>
 						<option value="3">ALTA</option>
 					</select>
-				</div> 
+		        </li>
 				<br>
 
 		        <label> Descripci&oacute;n del plato</label> 
@@ -93,13 +98,9 @@
 		       </div>
 		       <input type="button" value="+">
 		       <br>
-		       <i class="icon-check"></i> <a href="index.html"><input type="submit" id="enviar" value="Publicar"></a>
+		       <input type="submit" id="enviar" value="Publicar"></a>
 		    </ul>  
-		</form>  
-			<ul class="boton2">
-				<input type="file"> <br>
-				<li><a href="nueva-receta.html#ingredientes"><i class="icon-picture"></i> Añadir foto</a></li>
-			</ul>
+		</form>
 	</section>
 	<footer>
 		<div class="foot">
