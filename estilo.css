@@ -813,6 +813,12 @@ box-shadow: 0 0 .4em 2px blue ;
 	border-top: 0;
 	border-color:gray; 
 }
+#nueva-entrada li{
+	display:inherit;
+	overflow: hidden;
+	margin: .5em;
+}
+
 input{
 	margin-right: .5em;
 }

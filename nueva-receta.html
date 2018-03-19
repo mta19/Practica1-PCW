@@ -36,19 +36,17 @@
 		    <ul> 
 		    	<li>
 		    		<label>Nombre:</label>
-		        	<input  type="text" maxlength="80" name="name" placeholder="Nombre de la receta" required autofocus>
+		        	<input  type="text" maxlength="80" name="name" placeholder="Nombre de la receta" required autofocus>	
 		        </li>
-		        <br>
+		        
 		        <li>
 		        	<label>N&uacute;mero de comensales:</label>
 		        	<input type="number" name="comensales" min="0" max="24" step="1" placeholder="Personas" required >
 		        </li>
-		        <br>
 		        <li>
 		        	<label>Tiempo de elaboraci&oacute;n::</label>
 		        	<input type="number" name="tiempo" min="0" max="360" step="5" placeholder="Minutos" required >
 		        </li>
-		        <br>
 		        <li>
 		        	<label>Dificultad:</label>
 					<select name="orden" id="orden">
@@ -58,43 +56,43 @@
 						<option value="3">ALTA</option>
 					</select>
 		        </li>
-				<br>
-
-		        <label> Descripci&oacute;n del plato</label> 
-		        <textarea type="textarea" required > </textarea> 
-		        
-		      	<label>Ingredientes:</label>	
-		        		<div id="ingredientes" contenteditable="true"></div>		       	
-			        	
-						<form>
-							<input type="text" placeholder="Ingredientes">
-							<input type="submit" value="+">
-						</form>
-				      	
-				
-				<br>
-
-				<label> Im&aacute;genes</label><br>
-		       	<div class="miniat">
-		       		<div>
-		       			<span class="icon-trash">
-						<img alt="sushi2"  class="box2" src="imagenes/sushi2.jpg">
-						<input type="text">
-					</div>
-					<div>
-						<span class="icon-trash">
-						<img alt="sushi2"  class="box2" src="imagenes/sushi2.jpg">
-						<input type="text">
-					</div>
-					<div>
-						<span class="icon-trash">
-						<img alt="sushi2"  class="box2" src="imagenes/sushi2.jpg">
-						<input type="text">
-					</div>
-		       </div>
-		       <input type="button" value="+">
-		       <br>
-		       <input type="submit" id="enviar" value="Publicar"></a>
+				<li>
+					<label> Descripci&oacute;n del plato</label> 
+		        	<textarea required > </textarea> 
+				</li>
+		        <li>
+		        	<label>Ingredientes:</label>	
+        			<div id="ingredientes" contenteditable="true"></div>	
+		        </li>
+		      		       	
+	        	<li>
+	        		<input type="text" placeholder="Ingredientes">
+					<input type="button" value="+">
+	        	</li>
+				<li>
+					<label> Im&aacute;genes</label><br>
+			       	<div class="miniat">
+			       		<div>
+			       			<span class="icon-trash"></span>
+							<img alt="sushi2"  class="box2" src="imagenes/sushi2.jpg">
+							<input type="text">
+						</div>
+						<div>
+							<span class="icon-trash"></span>
+							<img alt="sushi2"  class="box2" src="imagenes/sushi2.jpg">
+							<input type="text">
+						</div>
+						<div>
+							<span class="icon-trash"></span>
+							<img alt="sushi2"  class="box2" src="imagenes/sushi2.jpg">
+							<input type="text">
+						</div>
+			       	</div>
+			       	<input type="button" value="+">
+				</li>
+				<li>
+					<input type="submit" id="enviar" value="Publicar">
+				</li>
 		      </ul>
 			</form>
 	</section>
