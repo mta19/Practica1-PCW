@@ -596,9 +596,6 @@ textarea:hover{
 .box2:hover{
 	box-shadow: 0 0 12px 4px gray ;
 }
-.miniat div{
-	display: inline-block;
-}
 section.problema {
 	margin:.6em auto;
 	width: 95%;
@@ -758,12 +755,19 @@ form[name=login] input{
 	margin: auto;
 	margin-top: .4em;
 }
+
 form[name=login] div{
 	display: flex;	
 }
+
+form[name=login] .mini{
+	display: block;	
+}
+
 form[name=login] input:focus{
 box-shadow: 0 0 .4em 2px blue ;
 }
+
 #regtit{
 		font-weight: bold;
 		text-align: center;	
@@ -813,6 +817,12 @@ box-shadow: 0 0 .4em 2px blue ;
 	border-top: 0;
 	border-color:gray; 
 }
+#nueva-entrada li{
+	display:inherit;
+	overflow: hidden;
+	margin: .5em;
+}
+
 input{
 	margin-right: .5em;
 }
