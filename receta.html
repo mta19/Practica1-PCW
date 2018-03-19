@@ -20,12 +20,9 @@
 			 <section class="info">
 			 	<div id="pinfo">
 			 		<img alt="sushi"  src="imagenes/sushitres.jpg" class="principal">
-			 		7
-			 	<div id="botones">
-					<ul class="boton2">
-				 		<li><a href="receta.html#pinfo"><i class="icon-minus"></i>  Anterior</a></li>
-						<li><a href="receta.html#pinfo"><i class="icon-plus"></i>  Siguiente</a></li>
-					</ul>
+			 	<div id="masmenos">
+				 		<a href="receta.html#pinfo"><i class="icon-minus"></i> Anterior</a>
+						<a href="receta.html#pinfo"><i class="icon-plus"></i> Siguiente</a>
 				</div>
 			 	<h2 >Info</h2>
 					<ul>
@@ -62,7 +59,7 @@
 					</div>
 			 </section>
 
-			 <h2> ME Gusta <span class="icon-thumbs-up-alt">  No me gusta<span class="icon-thumbs-down-alt"></h2>
+			 <h2 id="megusta"> ME Gusta <span class="icon-thumbs-up-alt">  No me gusta<span class="icon-thumbs-down-alt"></h2>
 
 			<header id ="com" class="Comentarios">Comentarios</header>
 			<section class="coments2">
@@ -187,10 +184,9 @@
 			    </form>	-->
 			</div>
 
-			<div class="coment2">
+			<div class="escribircoment">
 				<div class="titu"> Escribe un comentario </div>
-				<div class="autor">
-				</div>
+				<div class="autor"></div>
 				
 				<form action="receta.html#com" method="get" accept-charset="utf-8"> 
 					<div class="contestar">
@@ -198,11 +194,12 @@
 				        <input type="text" placeholder="T&iacute;tulo" maxlength="50" required>
 						<label> Comentario:</label><br>
 				        <textarea type="textarea" required></textarea>
-				        <i class="icon-comment"></i><input type="submit" class="responder" value="Enviar Comentario">
+				        <br>
+				        <i class="icon-comment"><input type="submit" class="responder" value="Enviar Comentario"></i>
 			        </div> 
 			    </form>
 			</div>
-
+				<br>
 			    <div id="botones">
 					<ul class="boton2">
 						<!--<li><a href="receta.html#com"><i class="icon-minus"></i>  Primera</a></li>-->
