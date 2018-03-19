@@ -156,6 +156,7 @@ footer:hover div{
 #ingredientes{
 	border: .1em solid gray;
 	display: block;
+	text-align: left;
 }
 
 
@@ -365,6 +366,13 @@ body>section>form>a{
 #megusta{
 	display: block;
 	text-align: center;
+}
+
+/*Decorar subir al inicio*/
+#subiralinicio>a{
+	padding: 0 8em;
+	text-align: center;
+	font-weight: bold;
 }
 
 
