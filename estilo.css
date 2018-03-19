@@ -156,6 +156,7 @@ footer:hover div{
 #ingredientes{
 	border: .1em solid gray;
 	display: block;
+	text-align: left;
 }
 
 
