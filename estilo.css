@@ -397,7 +397,7 @@ nav>li:hover{
 	border-left:0;
 	border-top: 0;
 	border-color:#FD4444; 
-	margin-bottom: 0em;
+	margin-bottom: 0;
 }
 li{
 	display: inline-block;
@@ -516,9 +516,9 @@ textarea:focus{
 textarea:hover{
 	box-shadow: 0 0 .4em 2px gray ;
 }
-#gris{
+/*#gris{
 	color:#C1C0C0;
-} 
+} */
 #texto01{
 	margin-top: 12.5em;
 	width:96%;
@@ -528,9 +528,9 @@ textarea:hover{
 	position: absolute;
 	opacity: 0;
 }  
-#texto01:hover{
+/*#texto01:hover{
 	opacity: 0.8;
-}
+}*/
 .miniat{
 	box-shadow:0 0 0 .1em #A9A7A9 ;
 	width: 95%;
@@ -1028,9 +1028,9 @@ label[for="menu-ham"]{
 	  	max-height: 15em;
 	}  
 
-	#gris{
+	/*#gris{
 		color:#C1C0C0;
-	} 
+	} */
 	#texto01{
 		margin-top: 12.5em;
 		width:96%;
