@@ -503,7 +503,7 @@ textarea:hover{
 	transform-style: preserve-3d;
 	transition:.4s;
 	}
-.box:hover{
+#centrar>article:hover{
 	box-shadow: 0 0 12px 4px gray ;
 }
 .box2{
@@ -537,7 +537,7 @@ section.problema img{
 	max-width: 96%; 
  	height: auto;
 }
-.box:hover section.problema {
+#centrar>article:hover section.problema {
 	/*transform:rotateY(180deg);*/
 	visibility: hidden;
 	transition:.5s;
@@ -563,7 +563,7 @@ section.detras {
 	backface-visibility: hidden;
 	visibility: hidden;
 }
-.box:hover section.detras {
+#centrar>article:hover section.detras {
 	transform:rotateY(0deg);
 	visibility: visible;
 }
@@ -943,7 +943,7 @@ label[for="menu-ham"]{
 	header#top{
 	 	margin: 2em auto 0;
 	}
-	.box{
+	#centrar>article{
 		width: 49.2%;
 	}
 	.miniat div{
@@ -973,7 +973,7 @@ label[for="menu-ham"]{
 	.coments2{
 		max-width: 65em;
 	}
-	.box{
+	#centrar>article{
 		width: 32.8%;
 	}
 	#dia{
@@ -1000,12 +1000,11 @@ label[for="menu-ham"]{
 
 
 
-
-.box:hover section.detras{
+#centrar>article:hover section.detras{
 -webkit-animation: animation2 2000ms linear both;
   animation: animation2 2000ms linear both;
 }
-.box:hover section.problema{
+#centrar>article:hover section.problema{
 -webkit-animation: animation 2000ms linear both;
   animation: animation 2000ms linear both;
 }
