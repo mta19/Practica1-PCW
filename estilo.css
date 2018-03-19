@@ -882,6 +882,36 @@ label[for="menu-ham"]{
 	display:none;
 }
 
+/*Cambiar las letras de Legal, privacidad y acerca de, que no se leen bien*/
+ #aviso, #privado{
+	font-family: Helvetica, Gadget, sans-serif; 
+	font-size: 1em;
+	font-weight: bold;
+	margin: 2em;
+	padding: 2em;
+	color: #414141;
+}
+#aviso>h2, #privado>h2{
+	color: #FD4444;
+	font-size: 1.3em;
+}
+
+#infoyo>h2, #datos>h2, #documentacion>h2{
+	color: #FD4444;
+	font-size: 1.3em;
+}
+
+#infoyo, #datos, #documentacion{
+	font-size: 1.3em;
+	font-weight: bold;
+	margin: 2em;
+	padding: 2em;
+	color: #414141;
+}
+
+
+
+/* ----------------------------------------- MEDIA QUERY ----------------------------------------------------------*/
 @media screen and (max-width: 480px){
 	body>header>div>nav>ul>li:first-of-type>label{
    		transform: rotate(-360deg);
