@@ -132,15 +132,15 @@ footer:hover div{
 }
 
 
-#ordenado{
+.ordenado{
 	font-size: 1.6em;
 	text-align: center;
 	font-weight: bold;
 }
-#ordenado input{
+.ordenado input{
 	margin: auto 1em;
 }
-#ordenado select{
+.ordenado select{
 	font-family: "Cursiva"; 
 	width: 15em;
 	height: 2.5em;
