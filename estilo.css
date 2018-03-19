@@ -332,6 +332,10 @@ ul.boton2 li{
 	padding: 0 .4em 0 0;
 	margin: 0 .2em 1em ;
 }
+
+ul.boton2 li:nth-child(3){
+	border:none;
+}
 ul.boton2 li:hover{
 	border-color: gray;
 }
@@ -516,10 +520,10 @@ textarea:focus{
 textarea:hover{
 	box-shadow: 0 0 .4em 2px gray ;
 }
-/*#gris{
+.gris{
 	color:#C1C0C0;
-} */
-#texto01{
+}
+.texto01{
 	margin-top: 12.5em;
 	width:96%;
 	height: 3em;
@@ -528,9 +532,9 @@ textarea:hover{
 	position: absolute;
 	opacity: 0;
 }  
-/*#texto01:hover{   Esto es lo que estaba detras de las recetas como mini descripcion
+.texto01:hover{   Esto es lo que estaba detras de las recetas como mini descripcion
 	opacity: 0.8;
-}*/
+}
 .miniat{
 	box-shadow:0 0 0 .1em #A9A7A9 ;
 	width: 95%;
@@ -1038,10 +1042,10 @@ label[for="menu-ham"]{
 	  	max-height: 15em;
 	}  
 
-	/*#gris{
+	.gris{
 		color:#C1C0C0;
-	} */
-	#texto01{
+	}
+	.texto01{
 		margin-top: 12.5em;
 		width:96%;
 		height: 3em;
@@ -1050,7 +1054,7 @@ label[for="menu-ham"]{
 		position: absolute;
 		opacity: 0;
 	}  
-	#texto01:hover{
+	.texto01:hover{
 		opacity: 0.8;
 	}
 
