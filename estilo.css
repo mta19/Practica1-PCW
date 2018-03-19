@@ -296,6 +296,27 @@ ul.boton li{
 ul.boton li:hover{
 	border-color: gray;
 }
+
+a.boton2{
+	text-align: center;
+    font-size: 1em;
+    font-family: 'Amatic SC', cursive;
+    background-color: white;
+    border: .1em;
+    border-style: solid;
+    border-radius: .2em;
+    border-color: #fd4444;
+    padding: 0 10px;
+    margin: auto;
+    margin-top: .4em;
+    height: 2em;
+}
+
+a.boton2:hover{
+	border-color: gray;
+}
+
+
 ul.boton2{
 	text-align: center;
 	font-size: 1.3em;
