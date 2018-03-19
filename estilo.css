@@ -368,6 +368,13 @@ body>section>form>a{
 	text-align: center;
 }
 
+/*Decorar subir al inicio*/
+#subiralinicio>a{
+	padding: 0 8em;
+	text-align: center;
+	font-weight: bold;
+}
+
 
 
 
