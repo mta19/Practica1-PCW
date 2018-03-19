@@ -521,6 +521,7 @@ textarea:hover{
 	box-shadow: 0 0 .4em 2px gray ;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .gris{
 	color:#C1C0C0;
 } 
@@ -528,6 +529,10 @@ textarea:hover{
 =======
 /*#gris{
 	color:#C1C0C0;
+=======
+/*#gris{
+	color:#C1C0C0;
+>>>>>>> 36684aa771758328d63534e5639d6da2fe4286e0
 } */
 #texto01{
 >>>>>>> 27b63fc480c3b1549e9a7bdb1ecc873e8079c905
@@ -540,10 +545,14 @@ textarea:hover{
 	opacity: 0;
 }  
 <<<<<<< HEAD
+<<<<<<< HEAD
 .texto01:hover{
 =======
 /*#texto01:hover{
 >>>>>>> 27b63fc480c3b1549e9a7bdb1ecc873e8079c905
+=======
+/*#texto01:hover{   Esto es lo que estaba detras de las recetas como mini descripcion
+>>>>>>> 36684aa771758328d63534e5639d6da2fe4286e0
 	opacity: 0.8;
 }*/
 .miniat{
@@ -1054,6 +1063,7 @@ label[for="menu-ham"]{
 	}  
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 	.gris{
 		color:#C1C0C0;
 	} 
@@ -1061,6 +1071,10 @@ label[for="menu-ham"]{
 =======
 	/*#gris{
 		color:#C1C0C0;
+=======
+	/*#gris{
+		color:#C1C0C0;
+>>>>>>> 36684aa771758328d63534e5639d6da2fe4286e0
 	} */
 	#texto01{
 >>>>>>> 27b63fc480c3b1549e9a7bdb1ecc873e8079c905
