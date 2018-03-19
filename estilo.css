@@ -466,6 +466,10 @@ input[type="submit"]{
 	font-family: 'Amatic SC', cursive;
 }
 
+input[type="submit"]:hover{
+	border-color: gray;
+}
+
 .responder{
 	margin-top: -25px;
 	font-size: 0.7em;
