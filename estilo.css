@@ -440,6 +440,7 @@ input[type="text"]{
 	display: block;
 	height: 2em;
 	border-radius: .4em;
+	margin: auto;
 }
 input[type="password"]{
 	display: block;
