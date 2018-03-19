@@ -707,6 +707,9 @@ form[name=login] input{
 	margin: auto;
 	margin-top: .4em;
 }
+form[name=login] div{
+	display: flex;	
+}
 form[name=login] input:focus{
 box-shadow: 0 0 .4em 2px blue ;
 }
